@@ -1,0 +1,40 @@
+
+--- FCFS ---
+P1: Response=0, Waiting=0, Turnaround=5
+P2: Response=3, Waiting=3, Turnaround=6
+P3: Response=5, Waiting=5, Turnaround=15
+P4: Response=14, Waiting=14, Turnaround=18
+P5: Response=15, Waiting=15, Turnaround=21
+Rata-rata: Response=7.40, Waiting=7.40, Turnaround=13.00
+
+--- SRTF (Preemptive SJF) ---
+P1: Response=0, Waiting=0, Turnaround=5
+P2: Response=3, Waiting=3, Turnaround=6
+P4: Response=4, Waiting=4, Turnaround=8
+P5: Response=5, Waiting=5, Turnaround=11
+P3: Response=15, Waiting=15, Turnaround=25
+Rata-rata: Response=5.40, Waiting=5.40, Turnaround=11.00
+
+--- Preemptive Priority Scheduling ---
+P2: Response=0, Waiting=0, Turnaround=3
+P1: Response=0, Waiting=3, Turnaround=8
+P4: Response=4, Waiting=4, Turnaround=8
+P5: Response=5, Waiting=5, Turnaround=11
+P3: Response=15, Waiting=15, Turnaround=25
+Rata-rata: Response=4.80, Waiting=5.40, Turnaround=11.00
+
+--- Round Robin (Quantum = 4) ---
+P2: Response=2, Waiting=2, Turnaround=5
+P4: Response=7, Waiting=7, Turnaround=11
+P1: Response=0, Waiting=11, Turnaround=16
+P5: Response=9, Waiting=13, Turnaround=19
+P3: Response=4, Waiting=15, Turnaround=25
+Rata-rata: Response=4.40, Waiting=9.60, Turnaround=15.20
+
+--- Round Robin (Quantum = 6) ---
+P1: Response=0, Waiting=0, Turnaround=5
+P2: Response=3, Waiting=3, Turnaround=6
+P4: Response=10, Waiting=10, Turnaround=14
+P5: Response=11, Waiting=11, Turnaround=17
+P3: Response=5, Waiting=15, Turnaround=25
+Rata-rata: Response=5.80, Waiting=7.80, Turnaround=13.40
